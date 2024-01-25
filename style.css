@@ -1,0 +1,37 @@
+.banner{background-color: aquamarine;
+    border: 2px solid black; border-radius: 10px;
+    width: 400px}
+body{background-color:darkseagreen;
+    display: flex ; justify-content: center ;
+    align-items: center; }
+.banner h1{ font-family: "Century Schoolbook L";
+    text-decoration: underline ; min-height: 50px }
+.banner input{width: 70%;
+    position: relative; height: 15px; margin:2% 20px  10px 5px ;
+    border: none;background-color:wheat;
+     width: 70%}
+.submit { background-color: black ;
+    padding: 5px ; width: fit-content}
+.banner label{ margin: 2% 20px 10px 5px; padding: 10% }
+.submit{ border-radius: 5px ; font-family: inherit}
+.banner{margin:0;
+    padding:0 ;
+    font-family: SansSerif}
+.banner{ width:100% ;
+    height: 100%;
+    /*background-image: linear-gradient((rgba(0,0,0,0,0.75), rgba(0,0,0,0.25))url("Resources/Screenshot from 2024-01-10 02-22-34 (copy).png"));*/
+    background-image: url("Resources/Screenshot from 2024-01-10 02-22-34 (copy).png");
+    background-size: cover;
+    background-position: center
+     ;margin: 0;
+      padding:0}
+.navbar{width: 85% ;
+     margin: auto ;
+    padding: 35px 0;
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{list-style: none; display:inline-block;
+margin: 0 5px; }
+.navbar ul li a{color: white; text-decoration: none; text-transform: uppercase}
